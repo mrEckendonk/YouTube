@@ -38,8 +38,8 @@ input {
 }
 
 .container {
-  min-height : 100vh;
-  background-color :var(--secondaryColor) ;
+  min-height: 100vh;
+  background-color: var(--secondaryColor);
 }
 
 /* header style */
@@ -58,10 +58,10 @@ header {
 
 .menu-btn {
   margin-right: 2.4rem;
-  margin: 0 2.4rem;
 }
-.menu-btn svg{
-  fill:var(--primaryColor);
+
+.menu-btn svg {
+  fill: var(--primaryColor);
 }
 
 .home-btn {
@@ -73,7 +73,7 @@ header {
   font-weight: 500;
 }
 .home-btn svg{
-  fill:var(--primaryColor);
+  fill: var(--primaryColor);
 }
 
 .search-bar {
@@ -85,7 +85,7 @@ header {
   justify-content: center;
 }
 
-.btn .microphone{
+.btn .microphone {
   height: 2.5rem !important;
   width: 2.6rem !important;
   fill: var(--primaryColor);
@@ -135,7 +135,7 @@ header {
 
 .auth .btn {
   margin-right: 2.4rem;
-  height: 40px ;
+  height: 40px;
 }
 
 @media only screen and (max-width: 630px) {
@@ -151,7 +151,7 @@ header {
 
 .auth .profile {
   display: block;
-  width:3.2rem !important;
+  width: 3.2rem !important;
   height: 3.2rem !important;
   margin-right: 4rem;
 }
@@ -165,7 +165,7 @@ header {
     position: relative;
   }
   .options-btn svg{
-    fill:var(--primaryColor)
+    fill: var(--primaryColor)
   }
   .options-btn span{
     display: block;
@@ -214,7 +214,7 @@ header {
     position: relative;
   }
   .options-btn svg{
-    fill:var(--primaryColor)
+    fill: var(--primaryColor)
   }
   .options-btn span{
     display: block;

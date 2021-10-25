@@ -7,12 +7,13 @@
   margin: 0;
   box-sizing: border-box;
   font-size: inherit;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   color: #fff;
 }
-:root{
-  --primaryColor:#fff;
-  --secondaryColor:#1f1f1f;
+
+:root {
+  --primaryColor: #fff;
+  --secondaryColor: #1f1f1f;
 }
 
 html {
@@ -31,13 +32,14 @@ strong {
   cursor: pointer;
 }
 
-input{
+input {
   border: none;
   outline: none;
 }
+
 .container {
-  min-height: 100vh;
-  background-color:var(--secondaryColor) ;
+  min-height : 100vh;
+  background-color :var(--secondaryColor) ;
 }
 
 /* header style */
@@ -82,6 +84,7 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 .btn .microphone{
   height: 2.5rem !important;
   width: 2.6rem !important;
@@ -180,30 +183,30 @@ header {
   main {
     margin: 0 2.4rem 3rem 0;
   }
-  
+
   .content {
     display: grid;
     grid-template: auto 1fr / 2fr 1fr;
     padding: 8rem;
   }
-  
+
   @media only screen and (max-width: 1200px) {
     .content {
       padding: 8rem 1rem 1rem 1rem;
     }
   }
-  
+
   @media only screen and (max-width: 1020px) {
     main {
       margin: 0 2rem 3rem 2rem;
     }
-  
+
     .content {
       display: flex;
       flex-direction: column;
     }
   }
-  
+
   .video-container {
     border-bottom: 1px solid rgba(156, 92, 92, 0.2);
   }
@@ -230,7 +233,7 @@ header {
     padding-top: 25px;
     height: 0;
   }
-  
+
   .player iframe {
     position: absolute;
     top: 0;
@@ -238,28 +241,28 @@ header {
     width: 100%;
     height: 100%;
   }
-  
+
   .video-info {
     padding-top: 2rem;
   }
-  
+
   .video-title {
     font-size: 1.8em;
     font-weight: 400;
   }
-  
+
   .video-primary-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: -1px;
   }
-  
+
   .video-views-date {
     font-size: 1.4rem;
     color: #aaa;
   }
-  
+
   @media only screen and (max-width: 630px) {
     .video-views-date {
       max-width: 100px;
@@ -268,11 +271,11 @@ header {
       white-space: nowrap;
     }
   }
-  
+
   .video-options {
     display: flex;
   }
-  
+
   .video-options .btn {
     display: flex;
     align-items: center;
@@ -281,81 +284,81 @@ header {
     padding-left: 1rem;
     margin-left: 1rem;
   }
-  
+
   .video-options .btn img {
     width: 20px;
     height: 20px;
   }
-  
+
   .video-options .btn span {
     color: #aaa;
     font-size: 1.3rem;
     font-weight: 500;
     padding-left: 0.8rem;
   }
-  
+
   .likes-percents {
     display: flex;
     padding-bottom: 1rem;
     padding-right: 1rem;
     border-bottom: 2px solid #aaa;
   }
-  
+
   .video-options .like-btn {
     margin: 0;
   }
-  
+
   .video-options .more-options-btn {
     padding: 0 1rem;
   }
-  
+
   .video-options .more-options-btn img {
     align-self: flex-end;
     width: 24px;
     height: 24px;
   }
-  
-  
+
+
   /* description */
-  
+
   /* channel-info */
-  
+
   .channel-info {
     display: flex;
     align-items: center;
     padding-top: 1.5rem;
   }
-  
+
   .channel-logo img {
     width: 48px;
     border-radius: 50%;
   }
-  
+
   .channel-primary-info {
     padding-left: 1.5rem;
   }
-  
+
   .channel-name {
     display: flex;
     align-items: center;
   }
-  
+
   .channel-name img {
     width: 1.4rem;
   }
-  
+
   .channel-link {
     width: auto;
     padding-right: 0.4rem;
     text-decoration: none;
     font-size: 1.4rem;
   }
-  
+
   .channel-subscribers-count {
     color: #aaa;
     font-size: 1.3rem;
   }
-  
+
   .subscribe-btn {
     width: auto;
     height: auto;
@@ -366,30 +369,30 @@ header {
     font-weight: 500;
     background-color: #393939;
   }
-  
+
   .video-description {
     margin-top: 1rem;
     padding-left: 6.3rem;
     border-bottom: 1px solid rgba(170, 170, 170, 0.2);
   }
-  
+
   .video-description-para {
     font-size: 1.4rem;
   }
-  
+
   .game-info {
     margin-top: 1.6rem;
     display: grid;
     grid-gap: 1.6rem;
     grid-auto-flow: column;
   }
-  
+
   @media only screen and (max-width: 630px) {
     .game-info {
       grid-auto-flow: row;
     }
   }
-  
+
   .card {
     display: flex;
     align-items: center;
@@ -397,27 +400,27 @@ header {
     flex-grow: 1;
     background-color: rgba(0, 0, 0, 0.3);
   }
-  
+
   .card img {
     height: 100%;
   }
-  
+
   .card.gaming > img {
     margin-left: 1.6rem;
     border-radius: 50%;
     height: 55%;
   }
-  
+
   .card-title {
     font-size: 1.6rem;
   }
-  
+
   .card-info {
     display: flex;
     flex-direction: column;
     padding-left: 1.6rem;
   }
-  
+
   .card-link {
     display: flex;
     align-items: center;
@@ -425,13 +428,13 @@ header {
     text-decoration: none;
     color: #aaa;
   }
-  
+
   .game-year {
     padding: 0.6rem 0;
     font-size: 1.2rem;
     color: #aaa;
   }
-  
+
   .show-more-btn {
     width: auto;
     margin: 1.6rem 0;
@@ -439,29 +442,29 @@ header {
     font-weight: 500;
     color: #aaa;
   }
-  
+
   /* aside */
-  
+
   aside {
     grid-column: 2;
     grid-row: 1 / span 2;
   }
-  
+
   /* up-next */
-  
+
   .up-next {
     margin-bottom: 0.5rem;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid rgba(170, 170, 170, 0.2);
   }
-  
+
   .autoplay {
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
     padding-bottom: 0.5rem;
   }
-  
+
   .autoplay a {
     padding: 0.5rem 1rem;
     margin-right: 3rem;
@@ -475,7 +478,7 @@ header {
     color: var(--secondaryColor);
     background-color: var(--primaryColor);
   }
-  
+
   .thumbnail {
     position: relative;
     display: flex;
@@ -483,14 +486,14 @@ header {
     padding-top: 1rem;
     text-decoration: none;
   }
-  
+
   .duration {
     width: 100%;
     padding: 0.5rem;
     margin-top: -2.7rem;
     text-align: right;
   }
-  
+
   .duration span {
     padding: 0.1rem 0.4rem;
     font-size: 1.2rem;
@@ -498,19 +501,19 @@ header {
     border-radius: 2px;
     background-color: #000;
   }
-  
+
   .thumbnail-img {
     position: relative;
   }
-  
+
   .thumbnail-img img {
     height: 96px;
   }
-  
+
   .thumbnail-info {
     padding: 0 1rem;
   }
-  
+
   .thumbnail-title {
     width: 202px;
     display: -webkit-box;
@@ -521,32 +524,32 @@ header {
     font-size: 1.4rem;
     font-weight: 500;
   }
-  
+
   @media only screen and (max-width: 1200px) {
     .thumbnail-title {
       width: auto;
     }
   }
-  
+
   .thumbnail-channel-name {
     display: flex;
     align-items: center;
     font-size: 1.3rem;
     color: #aaa;
   }
-  
+
   .thumbnail-channel-name > img {
     margin-left: 0.5rem;
     width: 14px;
   }
-  
+
   .thumbnail-video-info {
     padding-top: 0.2rem;
     padding-bottom: 0.3rem;
     font-size: 1.3rem;
     color: #aaa;
   }
-  
+
   .thumbnail-new {
     padding: 0.1rem 0.5rem;
     background-color: rgb(51, 51, 51);
@@ -555,7 +558,7 @@ header {
     font-weight: 500;
     color: #aaa;
   }
-  
+
   .thumbnail-img-overlay {
     visibility: hidden;
     width: 100%;
@@ -565,7 +568,7 @@ header {
     align-items: flex-end;
     top: 0;
   }
-  
+
   .thumbnail-img-overlay .btn {
     display: flex;
     align-items: center;
@@ -576,22 +579,22 @@ header {
     border-radius: 2px;
     background-color: rgba(0, 0, 0, 0.9);
   }
-  
+
   .thumbnail-img-overlay img {
     width: 20px;
     height: 20px;
   }
-  
+
   .thumbnail-overlay {
     visibility: hidden;
     position: absolute;
     right: 0;
   }
-  
+
   .thumbnail-overlay .btn {
     margin-right: -1rem;
   }
-  
+
   .thumbnail:hover .thumbnail-img-overlay,
   .thumbnail:hover .thumbnail-overlay {
     visibility: initial;
@@ -600,11 +603,11 @@ header {
     display: flex;
     align-items: center;
   }
-  
+
   .comments-count {
     font-size: 1.6rem;
   }
-  
+
   .sort-btn {
     display: flex;
     align-items: center;
@@ -614,11 +617,11 @@ header {
     font-size: 1.4rem;
     color: #aaa;
   }
-  
+
   .sort-btn img {
     padding-right: 1rem;
   }
-  
+
   .new-comment,
   .comment {
     display: flex;
@@ -626,13 +629,13 @@ header {
     margin-top: 3rem;
     width: 100%;
   }
-  
+
   .user-avatar img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
   }
-  
+
   .comment-input {
     flex-grow: 1;
     align-self: self-start;
@@ -644,42 +647,42 @@ header {
     border: none;
     border-bottom: 1px solid #393939;
   }
-  
+
   .comment {
     align-items: initial;
   }
-  
+
   .comment-info {
     margin-left: 1.5rem;
   }
-  
+
   .comment-user {
     display: flex;
     align-items: center;
   }
-  
+
   .user-name,
   .comment-time {
     font-size: 1.3rem;
   }
-  
+
   .comment-time {
     padding-left: 0.5rem;
     color: #aaa;
   }
-  
+
   .comment-text {
     padding: 0.5rem 0 0.5rem 0;
     line-height: 1.5;
     font-size: 1.4rem;
   }
-  
+
   .comment-options,
   .cm-show-replies-btn {
     display: flex;
     align-items: center;
   }
-  
+
   .comment-options .btn {
     display: flex;
     align-items: center;
@@ -687,44 +690,43 @@ header {
     height: 32px;
     color: #aaa;
   }
-  
+
   .comment-options .btn img {
     width: 16px;
     height: 16px;
   }
-  
+
   .btn.cm-like-btn,
   .btn.cm-dislike-btn {
     padding-right: 1.5rem;
   }
-  
+
   .cm-like-btn span,
   .cm-reply-btn span {
     font-size: 1.3rem;
     font-weight: 500;
     color: #aaa;
   }
-  
+
   .cm-like-btn span {
     padding-left: 1rem;
   }
-  
+
   .cm-reply-btn {
     padding: 0 1rem;
   }
-  
+
   .cm-show-replies-btn {
     width: auto;
   }
-  
+
   .cm-show-replies-btn img {
     margin-left: -6px;
   }
-  
+
   .cm-show-replies-btn span {
     padding-left: 0.5rem;
     font-size: 1.4rem;
     font-weight: 500;
     color: #3ea6ff;
   }
-  

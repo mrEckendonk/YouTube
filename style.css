@@ -164,11 +164,11 @@ header {
 }
 
 .options-btn{
-    position: relative;
+  position: relative;
   }
 
   .options-btn svg{
-    fill: var(--primaryColor)
+  fill: var(--primaryColor)
   }
 
   .options-btn span{

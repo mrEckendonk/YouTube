@@ -167,11 +167,11 @@ header {
   position: relative;
 }
 
-.options-btn svg{
-  fill: var(--primaryColor)
+.options-btn svg {
+  fill: var(--primaryColor);
 }
 
-.options-btn span{
+.options-btn span {
   display: block;
   position: absolute;
   top: 5px;
@@ -180,7 +180,7 @@ header {
   width: 18px;
   border-radius: 50%;
   line-height: 18px;
-  background-color: #cc0000;
+  background-color: #c00;
 }
 
 main {
@@ -204,34 +204,14 @@ main {
     margin: 0 2rem 3rem 2rem;
   }
 
-.content {
-  display: flex;
-  flex-direction: column;
-}
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .video-container {
   border-bottom: 1px solid rgba(156, 92, 92, 0.2);
-}
-
-.options-btn{
-  position: relative;
-}
-
-.options-btn svg{
-  fill: var(--primaryColor)
-}
-
-.options-btn span{
-  display: block;
-  position: absolute;
-  top: 5px;
-  right: -7px;
-  height: 18px;
-  width: 18px;
-  border-radius: 50%;
-  line-height: 18px;
-  background-color: #cc0000;
 }
 
 .player {
